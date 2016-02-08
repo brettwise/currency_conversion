@@ -30,7 +30,7 @@ defmodule CurrencyConversion do
     rescue
       _ ->
         IO.puts "Whoa dude. Looks like that wasn't a number."
-        # main
+        main
     end
   end
 
